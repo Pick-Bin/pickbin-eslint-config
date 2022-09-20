@@ -1,0 +1,44 @@
+{
+  "name": "pickbin-eslint-config",
+  "version": "1.0.0",
+  "description": "Pickbin-flavored ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:Pick-Bin/pickbin-eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "lint",
+    "shared"
+  ],
+  "author": "Pickbin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pick-Bin/pickbin-eslint-config/issues"
+  },
+  "homepage": "https://github.com/Pick-Bin/pickbin-eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1"
+  },
+  "dependencies": {
+    "eslint-plugin-flowtype": "8.0.3",
+    "eslint-plugin-jest": "27.0.4",
+    "eslint-plugin-mocha": "10.1.0",
+    "eslint-plugin-new-with-error": "3.1.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-sort-class-members": "1.15.2",
+    "eslint-plugin-sort-destructure-keys": "1.4.0",
+    "eslint-plugin-sort-imports-es6": "0.0.3",
+    "eslint-plugin-sql-template": "2.0.0",
+    "eslint-plugin-switch-case": "1.1.2"
+  }
+}
