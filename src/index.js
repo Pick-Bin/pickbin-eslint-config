@@ -1,5 +1,5 @@
 /**
- * Export `seegno` shared configuration preset.
+ * Export `pickbin` shared configuration preset.
  */
 
 module.exports = {
